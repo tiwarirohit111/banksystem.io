@@ -1,0 +1,14 @@
+.box{
+    border-style: solid;
+    padding:10px;
+    width: 150px;
+    border-color:red;
+
+}
+span{
+    border:2px solid Green;
+    display:inline-block;
+    margin: 20px;
+    
+
+}

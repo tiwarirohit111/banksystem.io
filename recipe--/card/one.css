@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    height: 500px;
+    width: 300px;
+    background-color: #fff; 
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-left: 8px;
+   padding-right:8px ;
+
+
+
+}
+.card img{
+
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text{
+    align-items: ;
+}
+
+
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        border: 2px solid blue;
+        height: 800px;
+        width: 100%;
+        background-color:rgb(50, 205, 200);
+
+    }
+    .box{
+        border: 2px solid black;
+        background-color: red;
+        height: 40px;
+        width: 200px;
+        margin: 10px;
+        padding: 5px;
+        position: relative;
+        animation-name: right-moving;
+        animation-duration: 5s;
+        animation-delay: 0s;
+        /*animation-direction: alternate;
+        animation-iteration-count: infinite;*/
+        animation-timing-function: ease-in;
+        animation-fill-mode: forwards;
+
+
+
+
+          
+    }
+    @keyframes right-moving{
+        from{
+           top:0;
+           left:-20px;
+
+        }
+        to{
+            top :0;
+            left: 1200px;
+
+        }
+
+    }
+#a{
+    border: 2px solid black;
+        background-color: red;
+        height: 40px;
+        width:200px;
+        margin: 10px;
+        padding: 5px;
+        position: relative;
+    /*  animation: 5s ease-in 1s infinite alternate none running reverse mov;
+
+  */
+         animation-name: mov;
+         animation-duration: 5s;
+         animation-fill-mode:forwards;
+         
+
+
+} 
+   @keyframes mov{
+   form{
+          top: 500px;
+          left: 1200px;
+
+   }
+  to{
+    top: 500px;
+    left:0;
+
+  }
+   }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box</div>
+        <div id="a"> box</div>
+    </div>
+</body>
+</html>
